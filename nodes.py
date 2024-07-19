@@ -22,7 +22,7 @@ from torchvision import transforms as T
 
 
 import comfy.utils
-import sd
+from . import sd
 norm_transform = T.Compose(
     [
         T.ToTensor(),
